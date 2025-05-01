@@ -1,0 +1,23 @@
+[package]
+name = "tauri-plugin-drive"
+version = "0.0.1"
+authors = [ "Amaury Tobias <amaury.tobiasqr@gmail.com>" ]
+description = "Add download from drive capabilities to your tauri app"
+edition = "2021"
+rust-version = "1.77.2"
+exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
+links = "tauri-plugin-drive"
+repository = "https://github.com/aattqq/tauri-plugin-drive"
+readme = "README.md"
+license = "MIT"
+
+
+[dependencies]
+tauri = { version = "2.4.0" }
+serde = "1.0"
+thiserror = "2"
+google-drive3 = "6.0.0"
+http-body-util = "0.1.3"
+
+[build-dependencies]
+tauri-plugin = { version = "2.1.0", features = ["build"] }
