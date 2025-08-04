@@ -96,10 +96,10 @@ pub fn init<R: Runtime>(authorized_user_secret: AuthorizedUserSecret) -> TauriPl
         .setup(|app, _| {
             let app = app.app_handle().clone();
             tauri::async_runtime::spawn(async move {
-                let drive = imp::init(authorized_user_secret)
-                    .await
-                    .expect("error on drive plugin setup");
-                app.manage(drive);
+                //let drive = imp::init(authorized_user_secret)
+                    //.await
+                    //.expect("error on drive plugin setup");
+                // app.manage(drive);
             });
             Ok(())
         })
