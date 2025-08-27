@@ -2,7 +2,7 @@
   "name": "tauri-plugin-drive-api",
   "version": "0.0.1",
   "author": "Amaury Tobias <amaury.tobiasqr@gmail.com>",
-  "licence": "MIT",
+  "licence": "HL3-BOD-CL",
   "description": "Add download from drive capabilities to your tauri app",
   "type": "module",
   "types": "./dist-js/index.d.ts",

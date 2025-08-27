@@ -297,17 +297,20 @@
         {
           "description": "Enables the download_file command without any pre-configured scope.",
           "type": "string",
-          "const": "allow-download-file"
+          "const": "allow-download-file",
+          "markdownDescription": "Enables the download_file command without any pre-configured scope."
         },
         {
           "description": "Denies the download_file command without any pre-configured scope.",
           "type": "string",
-          "const": "deny-download-file"
+          "const": "deny-download-file",
+          "markdownDescription": "Denies the download_file command without any pre-configured scope."
         },
         {
-          "description": "Default permissions for the plugin",
+          "description": "Default permissions for the plugin\n#### This default permission set includes:\n\n- `allow-download-file`",
           "type": "string",
-          "const": "default"
+          "const": "default",
+          "markdownDescription": "Default permissions for the plugin\n#### This default permission set includes:\n\n- `allow-download-file`"
         }
       ]
     }

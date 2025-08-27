@@ -9,7 +9,8 @@ exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
 links = "tauri-plugin-drive"
 repository = "https://github.com/aattqq/tauri-plugin-drive"
 readme = "README.md"
-license = "MIT"
+license = "HL3-BOD-CL"
+license-file = "LICENSE"
 
 
 [dependencies]
